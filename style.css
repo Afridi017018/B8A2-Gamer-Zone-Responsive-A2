@@ -483,6 +483,7 @@ justify-content: center;
 
 
 
+
 @media screen and (max-width:576px) {
 
 /* nav-section */
@@ -1474,18 +1475,7 @@ position: relative;
     align-items: center;
 } 
 
-/* .footer-container{
-   border: 1px solid yellow;
 
-} */
-/* 
-.footer-div-1 .footer-logo{
-display: flex;
-justify-content: center;
-/* border: 1px solid blanchedalmond; */
-
-/* align-items: center; */
-}
 
 .footer-div-1 img{
     height: 30px;
@@ -1550,11 +1540,11 @@ justify-content: center;
 
 .footer-div-5{
     margin-top: 15px;
-} */
+} 
 
 
 
 
 
 
-    }
+    
