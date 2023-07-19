@@ -207,6 +207,12 @@
     position: relative;
     /* overflow: hidden; */
 }
+
+/* .card-main{
+    border: 1px solid red;
+    position: relative;
+} */
+
 .overlay {
     position: absolute;
     top: 0;
@@ -245,16 +251,28 @@
     cursor: pointer;
   }
   
-  /* Show the overlay on hover */
+  
   .card-1:hover .overlay, .card-2:hover .overlay, .card-3:hover .overlay, .card-4:hover .overlay {
     opacity: 2;
 
   }
 
+  /* .card-main > img{
+    border: 2px solid rgb(0, 255, 242);
+    cursor: pointer;
+    height: 280px;
+    width: 250px;
+  } */
+  /* .card-main>img:hover{
+    border: 5px solid blue;
+    height: 380px;
+    width: 250px;
+  } */
+
 
 .card-main img {
     height: 280px;
-    width: 250px;
+    width: 250px; 
     /* object-fit: cover; */
 }
 
@@ -471,7 +489,7 @@ justify-content: center;
     .nav-container {
         background-color: white;
         height: 100vh;
-        width: auto;
+        width: 221px;
         /* width: 420px; */
         /* padding: 10px 150px; */
         /* display: flex; */
@@ -587,11 +605,11 @@ justify-content: center;
 }
 
 .banner-image>img {
-    height: 585px;
+    height: 540px;
     width: 100%;
     /* border: 1px solid yellow; */
     padding-top: 25px;
-    padding-left: 35px;
+    padding-left: 70px;
 }
 
 .banner-h1-1 {
@@ -634,6 +652,132 @@ justify-content: center;
 
 
 
+
+
+
+
+
+/* online-gaming-section ..............................................................*/
+.online-gaming-container {
+    height: 442vh;
+    width: 515px;
+    /* border: 1px solid blue; */
+    /* border: 1px solid white; */
+    /* background-color: aquamarine; */
+    /* display: flex; */
+    /* flex-direction: column;
+  justify-content: center; */
+    /* align-items: center; */
+}
+
+.online-gaming-h1 {
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.online-gaming-h1 h1 {
+    font-size: 35px;
+
+}
+
+
+.funny-videos-text {
+    color: rgb(236, 4, 236);
+}
+
+.online-gaming-p {
+    text-align: center;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+
+}
+
+.online-gaming-p>p {
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    gap: 15px;
+    /* justify-content: center; */
+    align-items: center;
+    
+
+
+}
+
+
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    /* border: 1px solid blue; */
+    height: 100vh;
+    width: 400px;
+    position: relative;
+    /* overflow: hidden; */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 79%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+    border: 3px solid rgb(243, 125, 144);
+
+  }
+  
+  /* Styling for the play button */
+  .fa-sharp {
+    /* width: 50px;
+    height: 50px; */
+    font-size: 40px;
+    /* border-radius: 50%; */
+    /* border: 2px solid #fff; */
+    /* background-color: transparent; */
+    /* outline: none; */
+    cursor: pointer;
+  }
+  
+  /* Styling for the "Watch Now" text */
+  .watch-now {
+    color: rgb(243, 125, 144);
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Show the overlay on hover */
+  .card-main:hover .overlay {
+    opacity: 2;
+
+  }
+
+
+.card-main img {
+    height: 450px;
+    width: 400px;
+    /* object-fit: cover; */
+}
+
+.card-footer{
+    margin-top: 30px;
+    color: rgb(99, 99, 99);
+    font-size: 18px;
 }
 
 
@@ -644,7 +788,248 @@ justify-content: center;
 
 
 
-@media screen and (min-width:577px) and (max-width:768px) {
+
+/* play-games-section ............................................................................*/
+.play-games-container {
+    height: 125vh;
+    /* border: 1px solid blue; */
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.play-games-img{
+width: auto;
+/* border: 1px solid red; */
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 100px;
+position: relative;
+
+}
+
+.play-games-img > .img-1{
+    height: 300px;
+    /* border: 2px solid gray; */
+    margin-right: 100px;
+   
+}
+
+.play-games-img > .img-2{
+    height: 150px;
+    /* border: 2px solid salmon; */
+    position: absolute;
+    /* bottom: 0px; */
+    left: 280px;
+    /* bottom: -50px; */
+}
+
+
+
+
+
+.play-games-content{
+    width: 50%;
+    /* border: 2px solid green; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 150px;
+    }
+
+.play-games-h1 h1{
+    font-size: 30px;
+}
+
+.play-games-text, .online-text{
+    color: rgb(170, 6, 170);
+}
+
+.play-games-p{
+    margin-top: 25px;
+}
+
+.play-games-p p{
+    color: rgb(107, 107, 107);
+}
+
+
+
+
+
+
+
+/* icon-type-button-section............................................................................... */
+.icon-button-container{
+    height: 50vh;
+    width: 77%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    background-color: rgb(252, 233, 236);
+    /* justify-content: center;
+    align-content: center; */
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.common{
+    flex-basis: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: white;
+    height: 35px;
+    margin: 2px;
+    padding: 0px 10px 0px 10px;
+    width: auto;
+  
+}
+
+.common:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+.common:hover p {
+    color: red;
+    cursor: pointer;
+}
+
+.common p{
+    /* color: red; */
+    /* margin: auto; */
+    /* border: 1px solid rgb(255, 189, 128) */
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.common img{
+    height: 20px;
+    width: 20px;
+  /* border: 1px solid blue; */
+}
+
+
+
+
+
+
+
+
+/* footer-section ...........................................................*/
+
+.footer-section{
+    height: 80vh;
+    background-color: black;
+    /* border: 1px solid red; */
+    width: 123.5%;
+    text-align: center;
+    /* padding: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .footer-container{
+   border: 1px solid yellow;
+
+} */
+
+.footer-div-1 .footer-logo{
+display: flex;
+justify-content: center;
+/* border: 1px solid blanchedalmond; */
+
+/* align-items: center; */
+}
+
+.footer-div-1 img{
+    height: 30px;
+}
+
+.footer-div-1 h1{
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.footer-div-2{
+    display: flex;
+    justify-content: center;
+    
+    gap:40px;
+    /* border: 1px solid saddlebrown; */
+    margin: 30px 0px;
+    /* flex-basis: 100px; */
+    flex-wrap: wrap;
+}
+
+
+.footer-div-2 p, .footer-div-1 h1{
+    color: white;
+}
+
+.footer-div-2 p{
+    /* border: 1px solid red; */
+    flex-basis: 130px;
+    
+}
+
+.footer-div-4, .footer-div-5{
+    color: rgb(153, 151, 151);
+}
+
+.footer-div-3{
+    font-size: 30px;
+    margin: 15px 0px 30px 0px;
+    /* border: 1px solid wheat; */
+    
+}
+.footer-div-3 .fa-brands{
+    margin: 15px;
+}
+
+.footer-div-4 small{
+    /* margin: 20px; */
+    flex-basis: 150px;
+   
+}
+
+
+.footer-div-4{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.footer-div-5{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
 
     /* nav-section */
         .nav-container {
@@ -734,7 +1119,7 @@ justify-content: center;
 }
 
 .banner-content {
-    width: 100%;
+    width: 99%;
     height: 100vh;
     /* border: 1px solid red; */
     display: flex;
@@ -756,7 +1141,7 @@ justify-content: center;
 }
 
 .banner-image {
-    height: 100vh;
+    height: 108vh;
     width: 81%;
     /* border: 1px solid blue; */
     padding-right: 100px;
@@ -807,6 +1192,367 @@ justify-content: center;
     border-radius: 63px;
 
 }
+
+
+
+
+
+
+/* online-gaming-section ..............................................................*/
+.online-gaming-container {
+    height: 470vh;
+    width: auto;
+    /* border: 1px solid blue; */
+    /* border: 1px solid white; */
+    /* background-color: aquamarine; */
+    /* display: flex; */
+    /* flex-direction: column;
+  justify-content: center; */
+    /* align-items: center; */
+}
+
+.online-gaming-h1 {
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.online-gaming-h1 h1 {
+    font-size: 35px;
+
+}
+
+
+.funny-videos-text {
+    color: rgb(236, 4, 236);
+}
+
+.online-gaming-p {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.online-gaming-p>p {
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    gap: 15px;
+    /* justify-content: center; */
+    align-items: center;
+    
+
+
+}
+
+
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    /* border: 1px solid blue; */
+    height: 100vh;
+    margin: 10px;
+    width: 400px;
+    position: relative;
+    /* overflow: hidden; */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96.5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+    border: 3px solid rgb(243, 125, 144);
+
+  }
+  
+  /* Styling for the play button */
+  .fa-sharp {
+    /* width: 50px;
+    height: 50px; */
+    font-size: 40px;
+    /* border-radius: 50%; */
+    /* border: 2px solid #fff; */
+    /* background-color: transparent; */
+    /* outline: none; */
+    cursor: pointer;
+  }
+  
+  /* Styling for the "Watch Now" text */
+  .watch-now {
+    color: rgb(243, 125, 144);
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Show the overlay on hover */
+  .card-main:hover .overlay {
+    opacity: 2;
+
+  }
+
+
+.card-main img {
+    height: 550px;
+    width: 400px;
+    /* object-fit: cover; */
+}
+
+.card-footer{
+    /* margin-top: 10px; */
+    /* border: 1px solid rgb(170, 6, 170); */
+    /* margin-bottom: 10px; */
+    color: rgb(99, 99, 99);
+}
+
+
+
+
+
+
+/* play-games-section ............................................................................*/
+.play-games-container {
+    height: 125vh;
+    /* border: 1px solid blue; */
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.play-games-img{
+width: auto;
+/* border: 1px solid red; */
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 100px;
+position: relative;
+
+}
+
+.play-games-img > .img-1{
+    height: 300px;
+    /* border: 2px solid gray; */
+    margin-right: 100px;
+   
+}
+
+.play-games-img > .img-2{
+    height: 150px;
+    /* border: 2px solid salmon; */
+    position: absolute;
+    /* bottom: 0px; */
+    left: 280px;
+    /* bottom: -50px; */
+}
+
+
+
+
+
+.play-games-content{
+    width: 50%;
+    /* border: 2px solid green; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 150px;
+    text-align: center;
+    }
+
+.play-games-h1 h1{
+    font-size: 30px;
+}
+
+.play-games-text, .online-text{
+    color: rgb(170, 6, 170);
+}
+
+.play-games-p{
+    margin-top: 25px;
+}
+
+.play-games-p p{
+    color: rgb(107, 107, 107);
+}
+
+
+
+
+
+
+
+/* icon-type-button-section............................................................................... */
+.icon-button-container{
+    height: 50vh;
+    width: 73.6%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    background-color: rgb(252, 233, 236);
+    /* justify-content: center;
+    align-content: center; */
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.common{
+    flex-basis: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: white;
+    height: 35px;
+    margin: 2px;
+    padding: 0px 10px 0px 10px;
+    width: auto;
+  
+}
+
+.common:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+.common:hover p {
+    color: red;
+    cursor: pointer;
+}
+
+.common p{
+    /* color: red; */
+    /* margin: auto; */
+    /* border: 1px solid rgb(255, 189, 128) */
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.common img{
+    height: 20px;
+    width: 20px;
+  /* border: 1px solid blue; */
+}
+
+
+
+
+
+
+
+
+/* footer-section ...........................................................*/
+
+.footer-section{
+    height: 80vh;
+    background-color: black;
+    /* border: 1px solid red;
+    width: 123.5%;
+    text-align: center;
+    /* padding: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* .footer-container{
+   border: 1px solid yellow;
+
+} */
+/* 
+.footer-div-1 .footer-logo{
+display: flex;
+justify-content: center;
+/* border: 1px solid blanchedalmond; */
+
+/* align-items: center; */
+}
+
+.footer-div-1 img{
+    height: 30px;
+}
+
+.footer-div-1 h1{
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.footer-div-2{
+    display: flex;
+    justify-content: center;
+    
+    gap:40px;
+    /* border: 1px solid saddlebrown; */
+    margin: 30px 0px;
+    /* flex-basis: 100px; */
+    flex-wrap: wrap;
+}
+
+
+.footer-div-2 p, .footer-div-1 h1{
+    color: white;
+}
+
+.footer-div-2 p{
+    /* border: 1px solid red; */
+    flex-basis: 130px;
+    
+}
+
+.footer-div-4, .footer-div-5{
+    color: rgb(153, 151, 151);
+}
+
+.footer-div-3{
+    font-size: 30px;
+    margin: 15px 0px 30px 0px;
+    /* border: 1px solid wheat; */
+    
+}
+.footer-div-3 .fa-brands{
+    margin: 15px;
+}
+
+.footer-div-4 small{
+    /* margin: 20px; */
+    flex-basis: 150px;
+   
+}
+
+
+.footer-div-4{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.footer-div-5{
+    margin-top: 15px;
+} */
+
+
 
 
 
